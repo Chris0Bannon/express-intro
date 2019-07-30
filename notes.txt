@@ -1,0 +1,30 @@
+type in 
+
+npm init --yes
+
+npminstall
+
+control + C gets us out of the node realm
+
+node server/server.js is the file path to run our server
+
+
+check package.json for dependencies.
+
+in your browser go to localhost:'port number'
+in this case it is localhost:5000
+
+
+YOU NEED TO TELL THE INSTRUCTORS WHAT PORT YOU ARE WORKING ON
+
+GET request
+    sent from the browser to the server.  means its looking for 
+    some shit
+
+ gotta put this stuff in packages json so that the boys
+ can run it with npm start
+    "start": "node server/server.js"
+
+this does what it says it does:
+    npm install jquery
+    
